@@ -42,7 +42,7 @@ function update() {
         * 100 + '%'
 
     if(currentActive === 1) {
-        prev.disables = true;
+        prev.disabled = true;
     } else if(currentActive === circles.length) {
         next.disabled = true;
     } else {
